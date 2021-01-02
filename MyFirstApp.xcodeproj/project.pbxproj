@@ -15,6 +15,12 @@
 		E6642814259EF37E00CC3014 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6642813259EF37E00CC3014 /* MyFirstAppTests.swift */; };
 		E664281F259EF37E00CC3014 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664281E259EF37E00CC3014 /* MyFirstAppUITests.swift */; };
 		E6642832259EF58300CC3014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6642802259EF37C00CC3014 /* Main.storyboard */; };
+		E6729EF025A0806B0064A987 /* Zoe_P.png in Resources */ = {isa = PBXBuildFile; fileRef = E6729EEA25A0806A0064A987 /* Zoe_P.png */; };
+		E6729EF125A0806B0064A987 /* joy_rec.png in Resources */ = {isa = PBXBuildFile; fileRef = E6729EEB25A0806B0064A987 /* joy_rec.png */; };
+		E6729EF225A0806B0064A987 /* Zoe_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6729EEC25A0806B0064A987 /* Zoe_bg.jpg */; };
+		E6729EF325A0806B0064A987 /* ZoeQ.png in Resources */ = {isa = PBXBuildFile; fileRef = E6729EED25A0806B0064A987 /* ZoeQ.png */; };
+		E6729EF425A0806B0064A987 /* ZoeW.png in Resources */ = {isa = PBXBuildFile; fileRef = E6729EEE25A0806B0064A987 /* ZoeW.png */; };
+		E6729EF525A0806B0064A987 /* ZoeE.png in Resources */ = {isa = PBXBuildFile; fileRef = E6729EEF25A0806B0064A987 /* ZoeE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		E664281A259EF37E00CC3014 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E664281E259EF37E00CC3014 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		E6642820259EF37E00CC3014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6729EEA25A0806A0064A987 /* Zoe_P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zoe_P.png; sourceTree = "<group>"; };
+		E6729EEB25A0806B0064A987 /* joy_rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joy_rec.png; sourceTree = "<group>"; };
+		E6729EEC25A0806B0064A987 /* Zoe_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zoe_bg.jpg; sourceTree = "<group>"; };
+		E6729EED25A0806B0064A987 /* ZoeQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoeQ.png; sourceTree = "<group>"; };
+		E6729EEE25A0806B0064A987 /* ZoeW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoeW.png; sourceTree = "<group>"; };
+		E6729EEF25A0806B0064A987 /* ZoeE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoeE.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		E66427FB259EF37C00CC3014 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6729EC925A055080064A987 /* assets */,
 				E66427FC259EF37C00CC3014 /* AppDelegate.swift */,
 				E66427FE259EF37C00CC3014 /* SceneDelegate.swift */,
 				E6642800259EF37C00CC3014 /* ViewController.swift */,
@@ -126,6 +139,19 @@
 				E6642820259EF37E00CC3014 /* Info.plist */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		E6729EC925A055080064A987 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				E6729EEB25A0806B0064A987 /* joy_rec.png */,
+				E6729EEC25A0806B0064A987 /* Zoe_bg.jpg */,
+				E6729EEA25A0806A0064A987 /* Zoe_P.png */,
+				E6729EEF25A0806B0064A987 /* ZoeE.png */,
+				E6729EED25A0806B0064A987 /* ZoeQ.png */,
+				E6729EEE25A0806B0064A987 /* ZoeW.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6729EF525A0806B0064A987 /* ZoeE.png in Resources */,
+				E6729EF425A0806B0064A987 /* ZoeW.png in Resources */,
 				E6642832259EF58300CC3014 /* Main.storyboard in Resources */,
+				E6729EF125A0806B0064A987 /* joy_rec.png in Resources */,
+				E6729EF325A0806B0064A987 /* ZoeQ.png in Resources */,
+				E6729EF025A0806B0064A987 /* Zoe_P.png in Resources */,
+				E6729EF225A0806B0064A987 /* Zoe_bg.jpg in Resources */,
 				E6642809259EF37E00CC3014 /* LaunchScreen.storyboard in Resources */,
 				E6642806259EF37E00CC3014 /* Assets.xcassets in Resources */,
 			);
